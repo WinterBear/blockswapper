@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6ad1c1e-47c4-435d-b16e-d7a96c0207b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dev/snowcave/blockswapper/Metrics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/snowcave/blockswapper/Metrics.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,8 +61,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -89,7 +91,8 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/winterbear/dev/java/spigot/BlockSwapper"
   },
   "keyToStringList": {
     "kotlin-gradle-user-dirs": [
@@ -98,14 +101,20 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="dev.snowcave.blockswapper" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="dev.snowcave.blockswapper" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BlockSwapper [shadowJar]">
+  <component name="RunManager" selected="Gradle.BlockSwapper [assemble]">
     <configuration name="BlockSwapper [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -205,9 +214,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.BlockSwapper [shadowJar]" />
         <item itemvalue="Gradle.BlockSwapper [assemble]" />
         <item itemvalue="Gradle.BlockSwapper [build]" />
+        <item itemvalue="Gradle.BlockSwapper [shadowJar]" />
         <item itemvalue="Gradle.BlockSwapperListenerTest.onBlockPlace" />
         <item itemvalue="Kotlin script (Beta).build.gradle.kts" />
       </list>
