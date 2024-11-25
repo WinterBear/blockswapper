@@ -1,7 +1,10 @@
 name: BlockSwapper
-version: 1.0
+version: 1.1
 author: WinterBear
 main: dev.snowcave.blockswapper.BlockSwapperListener
 api-version: 1.13
 libraries:
   - org.jetbrains.kotlin:kotlin-stdlib:1.9.23
+permissions:
+  blockswapper.use:
+    default: true
