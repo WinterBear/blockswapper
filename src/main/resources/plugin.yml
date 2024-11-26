@@ -1,5 +1,5 @@
 name: BlockSwapper
-version: 1.1
+version: 1.1.1
 author: WinterBear
 main: dev.snowcave.blockswapper.BlockSwapperListener
 api-version: 1.13

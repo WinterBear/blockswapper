@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6ad1c1e-47c4-435d-b16e-d7a96c0207b1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/snowcave/blockswapper/Metrics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dev/snowcave/blockswapper/BlockSwapperListener.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dev/snowcave/blockswapper/BlockSwapperListener.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,28 +80,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.BlockSwapper [assemble].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.BlockSwapper [build].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.BlockSwapper [shadowJar].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.BlockSwapperListenerTest.onBlockPlace.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Build BlockSwapper.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin script (Beta).build.gradle.kts.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/winterbear/dev/java/spigot/BlockSwapper&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.BlockSwapper [assemble].executor": "Run",
+    "Gradle.BlockSwapper [build].executor": "Run",
+    "Gradle.BlockSwapper [shadowJar].executor": "Run",
+    "Gradle.BlockSwapperListenerTest.onBlockPlace.executor": "Run",
+    "Gradle.Build BlockSwapper.executor": "Run",
+    "Kotlin script (Beta).build.gradle.kts.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/winterbear/dev/java/spigot/BlockSwapper",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.570115"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;kotlin-gradle-user-dirs&quot;: [
-      &quot;/home/winterbear/.gradle&quot;
+  "keyToStringList": {
+    "kotlin-gradle-user-dirs": [
+      "/home/winterbear/.gradle"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -114,7 +119,13 @@
       <recent name="dev.snowcave.blockswapper" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BlockSwapper [assemble]">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle shadowJar" />
+      <command value="gradle shadowJar --warning-mode all" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.BlockSwapper [shadowJar]">
     <configuration name="BlockSwapper [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -214,9 +225,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BlockSwapper [shadowJar]" />
         <item itemvalue="Gradle.BlockSwapper [assemble]" />
         <item itemvalue="Gradle.BlockSwapper [build]" />
-        <item itemvalue="Gradle.BlockSwapper [shadowJar]" />
         <item itemvalue="Gradle.BlockSwapperListenerTest.onBlockPlace" />
         <item itemvalue="Kotlin script (Beta).build.gradle.kts" />
       </list>
