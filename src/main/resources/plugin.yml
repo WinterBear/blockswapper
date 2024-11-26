@@ -1,5 +1,5 @@
 name: BlockSwapper
-version: 1.1.1
+version: 1.2.0
 author: WinterBear
 main: dev.snowcave.blockswapper.BlockSwapperListener
 api-version: 1.13
@@ -8,3 +8,4 @@ libraries:
 permissions:
   blockswapper.use:
     default: true
+folia-supported: true

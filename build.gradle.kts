@@ -6,18 +6,20 @@ plugins {
 }
 
 group = "org.example"
-version = "1.1.1"
+version = "1.2.0"
 val javaVersion = 17
 
 
 repositories {
     mavenCentral()
     maven("https://hub.spigotmc.org/nexus/content/repositories/snapshots/")
+    maven("https://repo.papermc.io/repository/maven-public/")
 }
 
 dependencies {
     testImplementation(kotlin("test"))
     testImplementation("io.mockk:mockk:1.13.13")
+    compileOnly("dev.folia:folia-api:1.20.1-R0.1-SNAPSHOT")
     compileOnly("org.spigotmc:spigot-api:1.16.5-R0.1-SNAPSHOT")
     implementation("org.bstats:bstats-bukkit:3.0.2")
 }
