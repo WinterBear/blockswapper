@@ -35,12 +35,21 @@ class BlockSwapperListener : JavaPlugin(), Listener {
         }
     }
 
+    private fun findMatching(swapItem: ItemStack, swapSlots: Map<Int, ItemStack>): Int? {
+        for (entry in swapSlots){
+            if(entry.value.isSimilar(swapItem)){
+                return entry.key
+            }
+        }
+        return null;
+    }
+
     private fun swap(swapItem: ItemStack, player: Player){
         if(player.inventory.itemInMainHand.type != Material.AIR){
             return
         }
-        val swapSlot = player.inventory.first(swapItem.type)
-        if(swapSlot > 0) {
+        val swapSlot = findMatching(swapItem, player.inventory.all(swapItem.type))
+        if(swapSlot != null && swapSlot > 0) {
             player.inventory.setItemInMainHand(player.inventory.getItem(swapSlot))
             player.inventory.setItem(swapSlot, ItemStack(Material.AIR))
         }

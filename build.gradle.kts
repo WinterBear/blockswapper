@@ -5,8 +5,8 @@ plugins {
     id("com.github.johnrengelman.shadow") version "8.1.1"
 }
 
-group = "org.example"
-version = "1.2.0"
+group = "dev.snowcave"
+version = "1.3.0"
 val javaVersion = 17
 
 
