@@ -1,13 +1,13 @@
 import com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar
 
 plugins {
-    kotlin("jvm") version "1.9.23"
-    id("com.github.johnrengelman.shadow") version "8.1.1"
+    kotlin("jvm") version "2.4.21"
+    id("com.gradleup.shadow") version "9.6.1"
 }
 
 group = "dev.snowcave"
-version = "1.3.0"
-val javaVersion = 17
+version = "1.4.0"
+val javaVersion = 25
 
 
 repositories {
@@ -19,8 +19,8 @@ repositories {
 dependencies {
     testImplementation(kotlin("test"))
     testImplementation("io.mockk:mockk:1.13.13")
-    compileOnly("dev.folia:folia-api:1.20.1-R0.1-SNAPSHOT")
-    compileOnly("org.spigotmc:spigot-api:1.16.5-R0.1-SNAPSHOT")
+    compileOnly("dev.folia:folia-api:26.2.build.6-beta")
+    //compileOnly("org.spigotmc:spigot-api:26.3-R0.1-SNAPSHOT")
     implementation("org.bstats:bstats-bukkit:3.0.2")
 }
 
